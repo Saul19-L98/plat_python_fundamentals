@@ -1,0 +1,13 @@
+a=[1,2,3,4]
+b=a
+c=a[:]
+print('👉',a)
+print('👉',b)
+a.append(5)
+print('👉',a)
+print('👉',b)
+print('👀',c)
+print("---Ids--")
+print("a",id(a))
+print("b",id(b))
+print("c",id(c))
